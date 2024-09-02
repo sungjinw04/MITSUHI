@@ -1,0 +1,16 @@
+2024-08-28 15:30:19,881 - [ZeroTwo] - INFO - Not loading: ['rss', 'math']
+2024-08-28 15:30:19,881 - [ZeroTwo] - INFO - Modules to load: ['massactions', 'ud', 'dev', 'paste', 'stickers', 'send', 'shippering', 'livegram', 'sed', 'wish', 'cleaner', 'chatgpt', 'feds', 'blacklistusers', 'ping', 'zombie', 'cust_filters', 'muting', 'blacklist_stickers', 'tts-stt', 'quotly', 'speed_test', 'notes', 'connection', 'nightmode', 'mention_all', 'snipe', 'anime', 'users', 'welcomee', 'writetool', 'admin', 'approve', 'game_strings', 'debug', 'covert', 'animequote', 'pic', 'blacklist', 'ids', 'userinfo', 'welcome', 'antiflood', 'chatbot', 'backup', 'afk', 'anime_schedule', 'error_handling', 'alive', 'purge', 'NekoFunBot', 'imdb', 'log_channel', 'newlogo', 'locks', 'announcements', 'announce', 'games', 'pinterest', 'NekoFunBot_Strings', 'reverse', 'mmf', 'rules', 'remote_cmds', 'detectimposter', 'anti-channel', 'global_bans', 'bans', 'tools', 'disasters', 'musicplayer', 'game', 'disable', 'modules', 'logo', 'get_common_chats', 'eval', 'img', 'gtranslater', 'fun', 'ocr', 'reporting', 'backups', 'tiny', 'warns']
+2024-08-28 15:30:21,105 - [ZeroTwo] - INFO - Connecting To Redis Database
+2024-08-28 15:30:22,020 - [ZeroTwo] - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-28 15:30:22,021 - [ZeroTwo] - INFO - Added job "job_close" to job store "default"
+2024-08-28 15:30:22,021 - [ZeroTwo] - INFO - Scheduler started
+2024-08-28 15:30:22,021 - [ZeroTwo] - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-28 15:30:22,022 - [ZeroTwo] - INFO - Added job "job_open" to job store "default"
+2024-08-28 15:30:22,022 - [ZeroTwo] - INFO - Scheduler started
+2024-08-28 15:30:22,868 - [ZeroTwo] - INFO - Successfully loaded modules: ['massactions', 'ud', 'dev', 'paste', 'stickers', 'send', 'shippering', 'livegram', 'sed', 'wish', 'cleaner', 'chatgpt', 'feds', 'blacklistusers', 'ping', 'zombie', 'cust_filters', 'muting', 'blacklist_stickers', 'tts-stt', 'quotly', 'speed_test', 'notes', 'connection', 'nightmode', 'mention_all', 'snipe', 'anime', 'users', 'welcomee', 'writetool', 'admin', 'approve', 'game_strings', 'debug', 'covert', 'animequote', 'pic', 'blacklist', 'ids', 'userinfo', 'welcome', 'antiflood', 'chatbot', 'backup', 'afk', 'anime_schedule', 'error_handling', 'alive', 'purge', 'NekoFunBot', 'imdb', 'log_channel', 'newlogo', 'locks', 'announcements', 'announce', 'games', 'pinterest', 'NekoFunBot_Strings', 'reverse', 'mmf', 'rules', 'remote_cmds', 'detectimposter', 'anti-channel', 'global_bans', 'bans', 'tools', 'disasters', 'musicplayer', 'game', 'disable', 'modules', 'logo', 'get_common_chats', 'eval', 'img', 'gtranslater', 'fun', 'ocr', 'reporting', 'backups', 'tiny', 'warns']
+2024-08-28 15:30:22,869 - [ZeroTwo] - INFO - Connecting to 91.108.56.119:443/TcpFull...
+2024-08-28 15:30:22,924 - [ZeroTwo] - INFO - Connection to 91.108.56.119:443/TcpFull complete!
+2024-08-28 15:30:24,861 - [ZeroTwo] - INFO - Neko started, Using long polling. | BOT: [@Nobara_SoulXrobot]
+2024-08-28 15:30:24,862 - [ZeroTwo] - INFO - Scheduler started
+2024-08-28 15:32:31,695 - [ZeroTwo] - INFO - Uploading file of 26528 bytes in 1 chunks of 131072
+2024-08-28 15:33:16,227 - [ZeroTwo] - INFO - Uploading file of 31116 bytes in 1 chunks of 131072

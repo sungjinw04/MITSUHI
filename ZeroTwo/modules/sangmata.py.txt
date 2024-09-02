@@ -1,0 +1,46 @@
+import asyncio 
+from ZeroTwo import pgram, app
+from pyrogram import filters
+from pyrogram.errors import BadRequest 
+    
+@pgram.on_message(filters.command(["sg","check_name","check_username"]) & filters.group)
+async def _sangmata_id(_, message):
+    chat_id = message.chat.id
+    replied = message.reply_to_message
+    if message.sender_chat:
+        return
+    if not replied:
+        return await message.reply_text("Reply to a user....")
+    if replied.from_user.is_bot:
+        return await message.reply_text("Please reply to a **user's** message")
+    user_id = replied.from_user.id
+    
+    msg = await message.reply("`Waitoo.. Getting user history....`")
+    try:
+        user_info = await app.send_message("@SangMataInfo_bot",f"/search_id {user_id}")
+    except BadRequest:
+        return await msg.edit("First unblock @SangMataInfo_bot then use me MF.")
+    await asyncio.sleep(3)
+    text = ""
+    async for levi in app.get_chat_history("@SangMataInfo_bot",limit=3):
+        text += levi.text
+    if "/search_id" in text:
+        await msg.edit("Sorry unable to get the user information try again.")
+    try:
+        Name = text.split("Name History")[1]
+        if "🔗 Link To Profile" in Name:
+            Name = Name.split("🔗 Link To Profile")[0]
+        user = text.split("Username History")[1]
+        username = user.split("Name History")[0]
+    except IndexError:
+        pass     
+    if message.command[0] == "check_username":
+        await msg.edit(f"**☸️ Username History:**\n `{username}`")
+    if message.command[0] in ["sg","check_name"]:
+        await msg.edit(f"**🔰 Name History:**\n`{Name}`")
+
+
+__mod_name__ = "𝙽ᴀᴍᴇ 𝙷ɪsᴛᴏʀʏ"
+__help__ = """
+*❍ /sg:* reply to a user in a group and  use /sg to get replied user name history.
+"""

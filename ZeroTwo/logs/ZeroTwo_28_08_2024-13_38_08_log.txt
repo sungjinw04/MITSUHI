@@ -1,0 +1,27 @@
+2024-08-28 13:38:09,129 - [ZeroTwo] - INFO - Not loading: ['rss', 'math']
+2024-08-28 13:38:09,129 - [ZeroTwo] - INFO - Modules to load: ['massactions', 'ud', 'dev', 'paste', 'stickers', 'send', 'shippering', 'livegram', 'sed', 'wish', 'cleaner', 'chatgpt', 'feds', 'blacklistusers', 'ping', 'zombie', 'cust_filters', 'muting', 'blacklist_stickers', 'tts-stt', 'quotly', 'speed_test', 'notes', 'connection', 'nightmode', 'mention_all', 'snipe', 'anime', 'users', 'welcomee', 'writetool', 'admin', 'approve', 'game_strings', 'debug', 'covert', 'animequote', 'pic', 'blacklist', 'ids', 'userinfo', 'welcome', 'antiflood', 'chatbot', 'backup', 'afk', 'anime_schedule', 'error_handling', 'alive', 'purge', 'NekoFunBot', 'imdb', 'log_channel', 'newlogo', 'locks', 'announcements', 'announce', 'games', 'pinterest', 'NekoFunBot_Strings', 'reverse', 'mmf', 'rules', 'remote_cmds', 'detectimposter', 'anti-channel', 'global_bans', 'bans', 'tools', 'disasters', 'musicplayer', 'game', 'disable', 'modules', 'logo', 'get_common_chats', 'eval', 'img', 'gtranslater', 'fun', 'ocr', 'reporting', 'backups', 'tiny', 'warns']
+2024-08-28 13:38:10,272 - [ZeroTwo] - INFO - Connecting To Redis Database
+2024-08-28 13:38:11,631 - [ZeroTwo] - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-28 13:38:11,632 - [ZeroTwo] - INFO - Added job "job_close" to job store "default"
+2024-08-28 13:38:11,632 - [ZeroTwo] - INFO - Scheduler started
+2024-08-28 13:38:11,632 - [ZeroTwo] - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-28 13:38:11,633 - [ZeroTwo] - INFO - Added job "job_open" to job store "default"
+2024-08-28 13:38:11,633 - [ZeroTwo] - INFO - Scheduler started
+2024-08-28 13:38:12,314 - [ZeroTwo] - INFO - Successfully loaded modules: ['massactions', 'ud', 'dev', 'paste', 'stickers', 'send', 'shippering', 'livegram', 'sed', 'wish', 'cleaner', 'chatgpt', 'feds', 'blacklistusers', 'ping', 'zombie', 'cust_filters', 'muting', 'blacklist_stickers', 'tts-stt', 'quotly', 'speed_test', 'notes', 'connection', 'nightmode', 'mention_all', 'snipe', 'anime', 'users', 'welcomee', 'writetool', 'admin', 'approve', 'game_strings', 'debug', 'covert', 'animequote', 'pic', 'blacklist', 'ids', 'userinfo', 'welcome', 'antiflood', 'chatbot', 'backup', 'afk', 'anime_schedule', 'error_handling', 'alive', 'purge', 'NekoFunBot', 'imdb', 'log_channel', 'newlogo', 'locks', 'announcements', 'announce', 'games', 'pinterest', 'NekoFunBot_Strings', 'reverse', 'mmf', 'rules', 'remote_cmds', 'detectimposter', 'anti-channel', 'global_bans', 'bans', 'tools', 'disasters', 'musicplayer', 'game', 'disable', 'modules', 'logo', 'get_common_chats', 'eval', 'img', 'gtranslater', 'fun', 'ocr', 'reporting', 'backups', 'tiny', 'warns']
+2024-08-28 13:38:12,315 - [ZeroTwo] - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-08-28 13:38:14,146 - [ZeroTwo] - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-08-28 13:38:15,043 - [ZeroTwo] - INFO - Phone migrated to 5
+2024-08-28 13:38:15,043 - [ZeroTwo] - INFO - Reconnecting to new data center 5
+2024-08-28 13:38:15,236 - [ZeroTwo] - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2024-08-28 13:38:15,237 - [ZeroTwo] - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2024-08-28 13:38:15,237 - [ZeroTwo] - INFO - Connecting to 91.108.56.119:443/TcpFull...
+2024-08-28 13:38:16,713 - [ZeroTwo] - INFO - Connection to 91.108.56.119:443/TcpFull complete!
+2024-08-28 13:38:22,446 - [ZeroTwo] - WARNING - Zero Two can't able to send message to support_chat, go and check!
+2024-08-28 13:38:22,447 - [ZeroTwo] - INFO - Neko started, Using long polling. | BOT: [@Nobara_SoulXrobot]
+2024-08-28 13:38:22,447 - [ZeroTwo] - INFO - Scheduler started
+2024-08-28 13:40:05,683 - [ZeroTwo] - INFO - Disconnecting from 91.108.56.119:443/TcpFull...
+2024-08-28 13:40:05,683 - [ZeroTwo] - INFO - Disconnection from 91.108.56.119:443/TcpFull complete!
+2024-08-28 13:40:05,684 - [ZeroTwo] - INFO - Not disconnecting (already have no connection)
+2024-08-28 13:40:07,082 - [ZeroTwo] - INFO - Received signal 2 (SIGINT), stopping...
+2024-08-28 13:40:07,083 - [ZeroTwo] - INFO - Scheduler has been shut down
+2024-08-28 13:40:08,437 - [ZeroTwo] - WARNING - Exiting immediately!

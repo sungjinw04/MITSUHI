@@ -1,0 +1,63 @@
+2024-08-28 14:55:08,500 - [ZeroTwo] - INFO - Not loading: ['rss', 'math']
+2024-08-28 14:55:08,500 - [ZeroTwo] - INFO - Modules to load: ['massactions', 'ud', 'dev', 'paste', 'stickers', 'send', 'shippering', 'livegram', 'sed', 'wish', 'cleaner', 'chatgpt', 'feds', 'blacklistusers', 'ping', 'zombie', 'cust_filters', 'muting', 'blacklist_stickers', 'tts-stt', 'quotly', 'speed_test', 'notes', 'connection', 'nightmode', 'mention_all', 'snipe', 'anime', 'users', 'welcomee', 'writetool', 'admin', 'approve', 'game_strings', 'debug', 'covert', 'animequote', 'pic', 'blacklist', 'ids', 'userinfo', 'welcome', 'antiflood', 'chatbot', 'backup', 'afk', 'anime_schedule', 'error_handling', 'alive', 'purge', 'NekoFunBot', 'imdb', 'log_channel', 'newlogo', 'locks', 'announcements', 'announce', 'games', 'pinterest', 'NekoFunBot_Strings', 'reverse', 'mmf', 'rules', 'remote_cmds', 'detectimposter', 'anti-channel', 'global_bans', 'bans', 'tools', 'disasters', 'musicplayer', 'game', 'disable', 'modules', 'logo', 'get_common_chats', 'eval', 'img', 'gtranslater', 'fun', 'ocr', 'reporting', 'backups', 'tiny', 'warns']
+2024-08-28 14:55:09,744 - [ZeroTwo] - INFO - Connecting To Redis Database
+2024-08-28 14:55:10,748 - [ZeroTwo] - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-28 14:55:10,750 - [ZeroTwo] - INFO - Added job "job_close" to job store "default"
+2024-08-28 14:55:10,750 - [ZeroTwo] - INFO - Scheduler started
+2024-08-28 14:55:10,750 - [ZeroTwo] - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-28 14:55:10,751 - [ZeroTwo] - INFO - Added job "job_open" to job store "default"
+2024-08-28 14:55:10,751 - [ZeroTwo] - INFO - Scheduler started
+2024-08-28 14:55:11,431 - [ZeroTwo] - INFO - Successfully loaded modules: ['massactions', 'ud', 'dev', 'paste', 'stickers', 'send', 'shippering', 'livegram', 'sed', 'wish', 'cleaner', 'chatgpt', 'feds', 'blacklistusers', 'ping', 'zombie', 'cust_filters', 'muting', 'blacklist_stickers', 'tts-stt', 'quotly', 'speed_test', 'notes', 'connection', 'nightmode', 'mention_all', 'snipe', 'anime', 'users', 'welcomee', 'writetool', 'admin', 'approve', 'game_strings', 'debug', 'covert', 'animequote', 'pic', 'blacklist', 'ids', 'userinfo', 'welcome', 'antiflood', 'chatbot', 'backup', 'afk', 'anime_schedule', 'error_handling', 'alive', 'purge', 'NekoFunBot', 'imdb', 'log_channel', 'newlogo', 'locks', 'announcements', 'announce', 'games', 'pinterest', 'NekoFunBot_Strings', 'reverse', 'mmf', 'rules', 'remote_cmds', 'detectimposter', 'anti-channel', 'global_bans', 'bans', 'tools', 'disasters', 'musicplayer', 'game', 'disable', 'modules', 'logo', 'get_common_chats', 'eval', 'img', 'gtranslater', 'fun', 'ocr', 'reporting', 'backups', 'tiny', 'warns']
+2024-08-28 14:55:11,432 - [ZeroTwo] - INFO - Connecting to 91.108.56.119:443/TcpFull...
+2024-08-28 14:55:11,489 - [ZeroTwo] - INFO - Connection to 91.108.56.119:443/TcpFull complete!
+2024-08-28 14:55:14,330 - [ZeroTwo] - INFO - Neko started, Using long polling. | BOT: [@Nobara_SoulXrobot]
+2024-08-28 14:55:14,331 - [ZeroTwo] - INFO - Scheduler started
+2024-08-28 15:13:37,017 - [ZeroTwo] - ERROR - 'NoneType' object has no attribute 'is_bot'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 73, in member_has_joined
+    if user.is_bot:
+AttributeError: 'NoneType' object has no attribute 'is_bot'
+2024-08-28 15:20:17,188 - [ZeroTwo] - ERROR - can't set attribute 'mode'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 38, in welcomepic
+    background = Image.open("img/bg.png")
+  File "/home/Sung/.local/lib/python3.10/site-packages/PIL/Image.py", line 3477, in open
+    register_extension(id, extension)
+  File "/home/Sung/.local/lib/python3.10/site-packages/PIL/Image.py", line 3465, in _open_core
+    EXTENSION[extension.lower()] = id.upper()
+  File "/home/Sung/.local/lib/python3.10/site-packages/PIL/JpegImagePlugin.py", line 822, in jpeg_factory
+    im = JpegImageFile(fp, filename)
+  File "/home/Sung/.local/lib/python3.10/site-packages/PIL/ImageFile.py", line 117, in __init__
+    self._open()
+  File "/home/Sung/.local/lib/python3.10/site-packages/PIL/JpegImagePlugin.py", line 383, in _open
+    handler(self, i)
+  File "/home/Sung/.local/lib/python3.10/site-packages/PIL/JpegImagePlugin.py", line 214, in SOF
+    self.mode = "RGB"
+AttributeError: can't set attribute 'mode'
+2024-08-28 15:24:58,653 - [ZeroTwo] - ERROR - can't set attribute 'mode'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 38, in welcomepic
+    background = Image.open("img/bg.png")
+  File "/home/Sung/.local/lib/python3.10/site-packages/PIL/Image.py", line 3477, in open
+    register_extension(id, extension)
+  File "/home/Sung/.local/lib/python3.10/site-packages/PIL/Image.py", line 3465, in _open_core
+    EXTENSION[extension.lower()] = id.upper()
+  File "/home/Sung/.local/lib/python3.10/site-packages/PIL/JpegImagePlugin.py", line 822, in jpeg_factory
+    im = JpegImageFile(fp, filename)
+  File "/home/Sung/.local/lib/python3.10/site-packages/PIL/ImageFile.py", line 117, in __init__
+    self._open()
+  File "/home/Sung/.local/lib/python3.10/site-packages/PIL/JpegImagePlugin.py", line 383, in _open
+    handler(self, i)
+  File "/home/Sung/.local/lib/python3.10/site-packages/PIL/JpegImagePlugin.py", line 214, in SOF
+    self.mode = "RGB"
+AttributeError: can't set attribute 'mode'

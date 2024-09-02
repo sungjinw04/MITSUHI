@@ -1,0 +1,655 @@
+2024-08-28 15:42:14,239 - [ZeroTwo] - INFO - Not loading: ['rss', 'math']
+2024-08-28 15:42:14,239 - [ZeroTwo] - INFO - Modules to load: ['massactions', 'ud', 'dev', 'paste', 'stickers', 'send', 'shippering', 'livegram', 'sed', 'wish', 'cleaner', 'chatgpt', 'feds', 'blacklistusers', 'ping', 'zombie', 'cust_filters', 'muting', 'blacklist_stickers', 'tts-stt', 'quotly', 'speed_test', 'notes', 'connection', 'nightmode', 'mention_all', 'snipe', 'anime', 'users', 'welcomee', 'writetool', 'admin', 'approve', 'game_strings', 'debug', 'covert', 'animequote', 'pic', 'blacklist', 'ids', 'userinfo', 'welcome', 'antiflood', 'chatbot', 'backup', 'afk', 'anime_schedule', 'error_handling', 'alive', 'purge', 'NekoFunBot', 'imdb', 'log_channel', 'newlogo', 'locks', 'announcements', 'announce', 'games', 'pinterest', 'NekoFunBot_Strings', 'reverse', 'mmf', 'rules', 'remote_cmds', 'detectimposter', 'anti-channel', 'global_bans', 'bans', 'tools', 'disasters', 'musicplayer', 'game', 'disable', 'modules', 'logo', 'get_common_chats', 'eval', 'img', 'gtranslater', 'fun', 'ocr', 'reporting', 'backups', 'tiny', 'warns']
+2024-08-28 15:42:15,361 - [ZeroTwo] - INFO - Connecting To Redis Database
+2024-08-28 15:42:16,437 - [ZeroTwo] - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-28 15:42:16,439 - [ZeroTwo] - INFO - Added job "job_close" to job store "default"
+2024-08-28 15:42:16,439 - [ZeroTwo] - INFO - Scheduler started
+2024-08-28 15:42:16,439 - [ZeroTwo] - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-28 15:42:16,439 - [ZeroTwo] - INFO - Added job "job_open" to job store "default"
+2024-08-28 15:42:16,440 - [ZeroTwo] - INFO - Scheduler started
+2024-08-28 15:42:17,094 - [ZeroTwo] - INFO - Successfully loaded modules: ['massactions', 'ud', 'dev', 'paste', 'stickers', 'send', 'shippering', 'livegram', 'sed', 'wish', 'cleaner', 'chatgpt', 'feds', 'blacklistusers', 'ping', 'zombie', 'cust_filters', 'muting', 'blacklist_stickers', 'tts-stt', 'quotly', 'speed_test', 'notes', 'connection', 'nightmode', 'mention_all', 'snipe', 'anime', 'users', 'welcomee', 'writetool', 'admin', 'approve', 'game_strings', 'debug', 'covert', 'animequote', 'pic', 'blacklist', 'ids', 'userinfo', 'welcome', 'antiflood', 'chatbot', 'backup', 'afk', 'anime_schedule', 'error_handling', 'alive', 'purge', 'NekoFunBot', 'imdb', 'log_channel', 'newlogo', 'locks', 'announcements', 'announce', 'games', 'pinterest', 'NekoFunBot_Strings', 'reverse', 'mmf', 'rules', 'remote_cmds', 'detectimposter', 'anti-channel', 'global_bans', 'bans', 'tools', 'disasters', 'musicplayer', 'game', 'disable', 'modules', 'logo', 'get_common_chats', 'eval', 'img', 'gtranslater', 'fun', 'ocr', 'reporting', 'backups', 'tiny', 'warns']
+2024-08-28 15:42:17,095 - [ZeroTwo] - INFO - Connecting to 91.108.56.119:443/TcpFull...
+2024-08-28 15:42:17,150 - [ZeroTwo] - INFO - Connection to 91.108.56.119:443/TcpFull complete!
+2024-08-28 15:42:18,766 - [ZeroTwo] - INFO - Neko started, Using long polling. | BOT: [@Nobara_SoulXrobot]
+2024-08-28 15:42:18,767 - [ZeroTwo] - INFO - Scheduler started
+2024-08-28 15:48:05,512 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 16:00:39,559 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 16:11:25,878 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 16:14:13,907 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 16:18:06,464 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 16:18:15,117 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 16:31:28,530 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 16:33:06,127 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 16:34:56,728 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 16:35:40,605 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 16:36:33,731 - [ZeroTwo] - ERROR - An uncaught error was raised while handling the error.
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 569, in process_update
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 813, in dispatch_error
+  File "/home/Sung/Sukuna/ZeroTwo/__main__.py", line 327, in error_callback
+    raise context.error
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 557, in process_update
+  File "/home/Sung/Sukuna/ZeroTwo/modules/helper_funcs/handlers.py", line 105, in handle_update
+    return self.callback(update, context)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/log_channel.py", line 39, in log_action
+    result += f"\n<b>Event Stamp</b>: <code>{datetime.utcnow().strftime(datetime_fmt)}</code>"
+TypeError: unsupported operand type(s) for +=: 'Promise' and 'str'
+2024-08-28 16:41:33,195 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 16:41:33,722 - [ZeroTwo] - ERROR - [Errno 2] No such file or directory: '/home/Sung/Sukuna/downloads/pp6721272868.png.temp'
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/shutil.py", line 816, in move
+    os.rename(src, real_dst)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/Sung/Sukuna/downloads/pp6721272868.png.temp' -> '/home/Sung/Sukuna/downloads/pp6721272868.png'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 84, in member_has_joined
+    pic = await app.download_media(user.photo.big_file_id, file_name=f"pp{user.id}.png")
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/methods/messages/download_media.py", line 186, in download_media
+    return await downloader
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/client.py", line 907, in handle_download
+    shutil.move(temp_file_path, file_path)
+  File "/usr/lib/python3.10/shutil.py", line 836, in move
+    copy_function(src, real_dst)
+  File "/usr/lib/python3.10/shutil.py", line 434, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/usr/lib/python3.10/shutil.py", line 254, in copyfile
+    with open(src, 'rb') as fsrc:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/Sung/Sukuna/downloads/pp6721272868.png.temp'
+2024-08-28 16:41:36,707 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 16:47:32,249 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 16:47:41,256 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 16:51:54,481 - [ZeroTwo] - ERROR - An uncaught error was raised while handling the error.
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 569, in process_update
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 813, in dispatch_error
+  File "/home/Sung/Sukuna/ZeroTwo/__main__.py", line 327, in error_callback
+    raise context.error
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 557, in process_update
+  File "/home/Sung/Sukuna/ZeroTwo/modules/helper_funcs/handlers.py", line 105, in handle_update
+    return self.callback(update, context)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/log_channel.py", line 39, in log_action
+    result += f"\n<b>Event Stamp</b>: <code>{datetime.utcnow().strftime(datetime_fmt)}</code>"
+TypeError: unsupported operand type(s) for +=: 'Promise' and 'str'
+2024-08-28 16:53:07,395 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 16:58:44,684 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 17:03:00,339 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 17:03:00,733 - [ZeroTwo] - ERROR - [Errno 2] No such file or directory: '/home/Sung/Sukuna/downloads/pp6143745112.png.temp'
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/shutil.py", line 816, in move
+    os.rename(src, real_dst)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/Sung/Sukuna/downloads/pp6143745112.png.temp' -> '/home/Sung/Sukuna/downloads/pp6143745112.png'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 84, in member_has_joined
+    pic = await app.download_media(user.photo.big_file_id, file_name=f"pp{user.id}.png")
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/methods/messages/download_media.py", line 186, in download_media
+    return await downloader
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/client.py", line 907, in handle_download
+    shutil.move(temp_file_path, file_path)
+  File "/usr/lib/python3.10/shutil.py", line 836, in move
+    copy_function(src, real_dst)
+  File "/usr/lib/python3.10/shutil.py", line 434, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/usr/lib/python3.10/shutil.py", line 254, in copyfile
+    with open(src, 'rb') as fsrc:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/Sung/Sukuna/downloads/pp6143745112.png.temp'
+2024-08-28 17:03:03,735 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 17:21:38,184 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 17:56:43,132 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 18:06:09,235 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 18:06:35,948 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 18:16:46,857 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 18:19:58,506 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 18:20:02,430 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 18:29:00,003 - [ZeroTwo] - INFO - Running job "job_close (trigger: cron[hour='23', minute='59'], next run at: 2024-08-29 23:59:00 IST)" (scheduled at 2024-08-28 23:59:00+05:30)
+2024-08-28 18:29:00,006 - [ZeroTwo] - INFO - Job "job_close (trigger: cron[hour='23', minute='59'], next run at: 2024-08-29 23:59:00 IST)" executed successfully
+2024-08-28 18:30:17,576 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 18:38:05,530 - [ZeroTwo] - ERROR - An uncaught error was raised while handling the error.
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 569, in process_update
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 813, in dispatch_error
+  File "/home/Sung/Sukuna/ZeroTwo/__main__.py", line 327, in error_callback
+    raise context.error
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 557, in process_update
+  File "/home/Sung/Sukuna/ZeroTwo/modules/helper_funcs/handlers.py", line 105, in handle_update
+    return self.callback(update, context)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/log_channel.py", line 39, in log_action
+    result += f"\n<b>Event Stamp</b>: <code>{datetime.utcnow().strftime(datetime_fmt)}</code>"
+TypeError: unsupported operand type(s) for +=: 'Promise' and 'str'
+2024-08-28 18:43:03,950 - [ZeroTwo] - ERROR - An uncaught error was raised while handling the error.
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 569, in process_update
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 813, in dispatch_error
+  File "/home/Sung/Sukuna/ZeroTwo/__main__.py", line 327, in error_callback
+    raise context.error
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 557, in process_update
+  File "/home/Sung/Sukuna/ZeroTwo/modules/helper_funcs/handlers.py", line 105, in handle_update
+    return self.callback(update, context)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/log_channel.py", line 39, in log_action
+    result += f"\n<b>Event Stamp</b>: <code>{datetime.utcnow().strftime(datetime_fmt)}</code>"
+TypeError: unsupported operand type(s) for +=: 'Promise' and 'str'
+2024-08-28 19:19:21,770 - [ZeroTwo] - ERROR - An uncaught error was raised while handling the error.
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 569, in process_update
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 813, in dispatch_error
+  File "/home/Sung/Sukuna/ZeroTwo/__main__.py", line 327, in error_callback
+    raise context.error
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 557, in process_update
+  File "/home/Sung/Sukuna/ZeroTwo/modules/helper_funcs/handlers.py", line 105, in handle_update
+    return self.callback(update, context)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/log_channel.py", line 39, in log_action
+    result += f"\n<b>Event Stamp</b>: <code>{datetime.utcnow().strftime(datetime_fmt)}</code>"
+TypeError: unsupported operand type(s) for +=: 'Promise' and 'str'
+2024-08-28 19:23:23,562 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 19:29:03,916 - [ZeroTwo] - ERROR - An uncaught error was raised while handling the error.
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 569, in process_update
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 813, in dispatch_error
+  File "/home/Sung/Sukuna/ZeroTwo/__main__.py", line 327, in error_callback
+    raise context.error
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 557, in process_update
+  File "/home/Sung/Sukuna/ZeroTwo/modules/helper_funcs/handlers.py", line 105, in handle_update
+    return self.callback(update, context)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/log_channel.py", line 39, in log_action
+    result += f"\n<b>Event Stamp</b>: <code>{datetime.utcnow().strftime(datetime_fmt)}</code>"
+TypeError: unsupported operand type(s) for +=: 'Promise' and 'str'
+2024-08-28 20:31:07,129 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 20:58:03,500 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 21:18:15,245 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 22:05:49,258 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 22:23:08,408 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 22:30:26,582 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 22:48:30,891 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-28 22:58:25,527 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-29 00:31:00,003 - [ZeroTwo] - INFO - Running job "job_open (trigger: cron[hour='6', minute='1'], next run at: 2024-08-30 06:01:00 IST)" (scheduled at 2024-08-29 06:01:00+05:30)
+2024-08-29 00:31:00,004 - [ZeroTwo] - INFO - Job "job_open (trigger: cron[hour='6', minute='1'], next run at: 2024-08-30 06:01:00 IST)" executed successfully
+2024-08-29 01:09:52,953 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-29 01:10:01,921 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-29 01:10:14,854 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-29 01:12:00,737 - [ZeroTwo] - ERROR - Error while getting Updates: Bad Gateway
+2024-08-29 01:12:01,906 - [ZeroTwo] - ERROR - Error while getting Updates: Bad Gateway
+2024-08-29 01:12:03,576 - [ZeroTwo] - ERROR - Error while getting Updates: Bad Gateway
+2024-08-29 01:37:56,305 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-29 02:39:42,760 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-29 02:41:09,032 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-29 03:00:32,415 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-29 03:02:32,903 - [ZeroTwo] - WARNING - [7498303276] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+2024-08-29 03:14:43,863 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-29 03:14:54,712 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-29 03:17:55,157 - [ZeroTwo] - ERROR - An uncaught error was raised while handling the error.
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 569, in process_update
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 813, in dispatch_error
+  File "/home/Sung/Sukuna/ZeroTwo/__main__.py", line 327, in error_callback
+    raise context.error
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 557, in process_update
+  File "/home/Sung/Sukuna/ZeroTwo/modules/helper_funcs/handlers.py", line 105, in handle_update
+    return self.callback(update, context)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/log_channel.py", line 39, in log_action
+    result += f"\n<b>Event Stamp</b>: <code>{datetime.utcnow().strftime(datetime_fmt)}</code>"
+TypeError: unsupported operand type(s) for +=: 'Promise' and 'str'
+2024-08-29 03:18:13,897 - [ZeroTwo] - ERROR - An uncaught error was raised while handling the error.
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 569, in process_update
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 813, in dispatch_error
+  File "/home/Sung/Sukuna/ZeroTwo/__main__.py", line 327, in error_callback
+    raise context.error
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 557, in process_update
+  File "/home/Sung/Sukuna/ZeroTwo/modules/helper_funcs/handlers.py", line 105, in handle_update
+    return self.callback(update, context)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/feds.py", line 359, in user_join_fed
+    get_owner = eval(info["fusers"])["owner"]
+TypeError: 'bool' object is not subscriptable
+2024-08-29 03:18:16,160 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-29 03:18:36,457 - [ZeroTwo] - ERROR - An uncaught error was raised while handling the error.
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 569, in process_update
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 813, in dispatch_error
+  File "/home/Sung/Sukuna/ZeroTwo/__main__.py", line 327, in error_callback
+    raise context.error
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 557, in process_update
+  File "/home/Sung/Sukuna/ZeroTwo/modules/helper_funcs/handlers.py", line 105, in handle_update
+    return self.callback(update, context)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/feds.py", line 359, in user_join_fed
+    get_owner = eval(info["fusers"])["owner"]
+TypeError: 'bool' object is not subscriptable
+2024-08-29 03:18:42,394 - [ZeroTwo] - ERROR - An uncaught error was raised while handling the error.
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 569, in process_update
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 813, in dispatch_error
+  File "/home/Sung/Sukuna/ZeroTwo/__main__.py", line 327, in error_callback
+    raise context.error
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 557, in process_update
+  File "/home/Sung/Sukuna/ZeroTwo/modules/helper_funcs/handlers.py", line 105, in handle_update
+    return self.callback(update, context)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/feds.py", line 359, in user_join_fed
+    get_owner = eval(info["fusers"])["owner"]
+TypeError: 'bool' object is not subscriptable
+2024-08-29 03:45:30,115 - [ZeroTwo] - ERROR - An uncaught error was raised while handling the error.
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 569, in process_update
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 813, in dispatch_error
+  File "/home/Sung/Sukuna/ZeroTwo/__main__.py", line 327, in error_callback
+    raise context.error
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 557, in process_update
+  File "/home/Sung/Sukuna/ZeroTwo/modules/helper_funcs/handlers.py", line 105, in handle_update
+    return self.callback(update, context)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/log_channel.py", line 39, in log_action
+    result += f"\n<b>Event Stamp</b>: <code>{datetime.utcnow().strftime(datetime_fmt)}</code>"
+TypeError: unsupported operand type(s) for +=: 'Promise' and 'str'
+2024-08-29 03:46:09,482 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-29 04:28:39,420 - [ZeroTwo] - ERROR - An uncaught error was raised while handling the error.
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 569, in process_update
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 813, in dispatch_error
+  File "/home/Sung/Sukuna/ZeroTwo/__main__.py", line 327, in error_callback
+    raise context.error
+  File "/home/Sung/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 557, in process_update
+  File "/home/Sung/Sukuna/ZeroTwo/modules/helper_funcs/handlers.py", line 105, in handle_update
+    return self.callback(update, context)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/log_channel.py", line 39, in log_action
+    result += f"\n<b>Event Stamp</b>: <code>{datetime.utcnow().strftime(datetime_fmt)}</code>"
+TypeError: unsupported operand type(s) for +=: 'Promise' and 'str'
+2024-08-29 04:31:35,935 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-29 04:37:11,795 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+2024-08-29 04:55:25,106 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'

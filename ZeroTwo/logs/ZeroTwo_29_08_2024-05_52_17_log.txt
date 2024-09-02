@@ -1,0 +1,23 @@
+2024-08-29 05:52:18,060 - [ZeroTwo] - INFO - Not loading: ['rss', 'math']
+2024-08-29 05:52:18,060 - [ZeroTwo] - INFO - Modules to load: ['massactions', 'ud', 'dev', 'paste', 'stickers', 'send', 'shippering', 'livegram', 'sed', 'wish', 'cleaner', 'chatgpt', 'feds', 'blacklistusers', 'ping', 'zombie', 'cust_filters', 'muting', 'blacklist_stickers', 'tts-stt', 'quotly', 'speed_test', 'notes', 'connection', 'nightmode', 'mention_all', 'snipe', 'anime', 'users', 'welcomee', 'writetool', 'admin', 'approve', 'game_strings', 'debug', 'covert', 'animequote', 'pic', 'blacklist', 'ids', 'userinfo', 'welcome', 'antiflood', 'chatbot', 'backup', 'afk', 'anime_schedule', 'error_handling', 'alive', 'purge', 'NekoFunBot', 'imdb', 'log_channel', 'newlogo', 'locks', 'announcements', 'announce', 'games', 'pinterest', 'NekoFunBot_Strings', 'reverse', 'mmf', 'rules', 'remote_cmds', 'detectimposter', 'anti-channel', 'global_bans', 'bans', 'tools', 'disasters', 'musicplayer', 'game', 'disable', 'modules', 'logo', 'get_common_chats', 'eval', 'img', 'gtranslater', 'fun', 'ocr', 'reporting', 'backups', 'tiny', 'warns']
+2024-08-29 05:52:19,282 - [ZeroTwo] - INFO - Connecting To Redis Database
+2024-08-29 05:52:20,628 - [ZeroTwo] - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-29 05:52:20,629 - [ZeroTwo] - INFO - Added job "job_close" to job store "default"
+2024-08-29 05:52:20,629 - [ZeroTwo] - INFO - Scheduler started
+2024-08-29 05:52:20,630 - [ZeroTwo] - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-08-29 05:52:20,630 - [ZeroTwo] - INFO - Added job "job_open" to job store "default"
+2024-08-29 05:52:20,630 - [ZeroTwo] - INFO - Scheduler started
+2024-08-29 05:52:21,087 - [ZeroTwo] - INFO - Successfully loaded modules: ['massactions', 'ud', 'dev', 'paste', 'stickers', 'send', 'shippering', 'livegram', 'sed', 'wish', 'cleaner', 'chatgpt', 'feds', 'blacklistusers', 'ping', 'zombie', 'cust_filters', 'muting', 'blacklist_stickers', 'tts-stt', 'quotly', 'speed_test', 'notes', 'connection', 'nightmode', 'mention_all', 'snipe', 'anime', 'users', 'welcomee', 'writetool', 'admin', 'approve', 'game_strings', 'debug', 'covert', 'animequote', 'pic', 'blacklist', 'ids', 'userinfo', 'welcome', 'antiflood', 'chatbot', 'backup', 'afk', 'anime_schedule', 'error_handling', 'alive', 'purge', 'NekoFunBot', 'imdb', 'log_channel', 'newlogo', 'locks', 'announcements', 'announce', 'games', 'pinterest', 'NekoFunBot_Strings', 'reverse', 'mmf', 'rules', 'remote_cmds', 'detectimposter', 'anti-channel', 'global_bans', 'bans', 'tools', 'disasters', 'musicplayer', 'game', 'disable', 'modules', 'logo', 'get_common_chats', 'eval', 'img', 'gtranslater', 'fun', 'ocr', 'reporting', 'backups', 'tiny', 'warns']
+2024-08-29 05:52:21,088 - [ZeroTwo] - INFO - Connecting to 91.108.56.119:443/TcpFull...
+2024-08-29 05:52:21,144 - [ZeroTwo] - INFO - Connection to 91.108.56.119:443/TcpFull complete!
+2024-08-29 05:52:22,761 - [ZeroTwo] - INFO - Neko started, Using long polling. | BOT: [@Nobara_SoulXrobot]
+2024-08-29 05:52:22,761 - [ZeroTwo] - INFO - Scheduler started
+2024-08-29 05:53:36,873 - [ZeroTwo] - ERROR - module 'PIL.Image' has no attribute 'ANTIALIAS'
+Traceback (most recent call last):
+  File "/home/Sung/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 440, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 88, in member_has_joined
+    welcomeimg = await welcomepic(pic, user.first_name, member.chat.title, count, user.id)
+  File "/home/Sung/Sukuna/ZeroTwo/modules/welcome.py", line 39, in welcomepic
+    background = background.resize((1024, 500), Image.ANTIALIAS)
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
